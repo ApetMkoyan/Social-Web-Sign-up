@@ -1,0 +1,129 @@
+.navigationMenu {
+    position: absolute;
+    top: 50px;
+    right: 220px;
+    width: 603px;
+    height: 100px;
+    border-radius: 20px;
+    background: #F2F7FC;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    animation: slideInFromTop 1s ease-in-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.navMenu {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #E1E8EF;
+    transition: background 1s;
+    cursor: url(../utilities/svg/Arrow\ -\ Left.svg), auto;
+}
+.back {
+    cursor: url(../utilities/svg/Arrow\ -\ Left.svg), auto;
+}
+.navMenu.active {
+    background: linear-gradient(91deg, #FF9C1A 7.92%, #E80505 108.2%);
+}
+
+.navMenu:hover {
+    background: linear-gradient(91deg, #FF9C1A 7.92%, #E80505 108.2%);
+}
+
+.navMenu button {
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.navMenu button img {
+    position: relative;
+    top: 0px;
+    background-size: 30px;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    top: 0px;
+    height: 0px;
+    border-radius: 20px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.navMenu span {
+    position: relative;
+    top: -13px;
+}
+
+.navMenu img {
+    position: relative;
+    top: 17px;
+    width: 34px;
+    height: 34px;
+    color: #000;
+}
+
+@keyframes slideInFromTop {
+
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.Edit {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #E1E8EF;
+    transition: background 1s;
+    cursor: pointer;
+}
+.Edit:hover{
+    background: linear-gradient(91deg, #FF9C1A 7.92%, #E80505 108.2%);
+}
+.Edit img {
+    position: relative;
+    top: 18px;
+    width: 34px;
+    height: 34px;
+    color: #000;
+}
+.Edit p {
+    position: relative;
+    top: -13px;
+    color: #000;
+    font-family: Raleway;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+}
+.Edit.active {
+    background: linear-gradient(91deg, #FF9C1A 7.92%, #E80505 108.2%);
+
+}

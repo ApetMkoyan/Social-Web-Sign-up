@@ -1,0 +1,76 @@
+.WorkPage {
+    width: 1440px;
+    height: 824px;
+    background: #d5d6d7;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.MyWorks {
+    width: 380px;
+    height: 600px;
+    padding: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transform: translateX(-100%);
+    opacity: 0;
+    overflow: scroll;
+    animation: slideInFromBottom 1s ease-in-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: -50px;
+}
+
+.worksInfo {
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.processWork {
+    width: 380px;
+    height: 600px;
+    padding: 30px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transform: translateX(-100%);
+    opacity: 0;
+    overflow: scroll;
+    animation: slideInFromBottom 1s ease-in-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.processInfo {
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+}

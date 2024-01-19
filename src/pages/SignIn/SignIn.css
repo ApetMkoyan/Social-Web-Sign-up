@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+.SignIn {
+    width: 1152px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(163deg, rgba(0, 212, 255, 1) 0%, rgba(13, 117, 222, 1) 31%, rgba(13, 110, 222, 1) 66%, rgba(16, 16, 215, 1) 78%, rgba(2, 0, 36, 1) 100%);
+}
+
+.Logoss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.LogoBird {
+    position: relative;
+    left: -180px;
+    width: 48px;
+    height: 48px;
+    background-image: url(../../utilities/png/LogoBird.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Logoss span {
+    display: flex;
+    width: 316px;
+    height: 66px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    font-family: PP Telegraf;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 1.92px;
+}
+
+.img3d {
+    position: relative;
+    left: 70px;
+    width: 429px;
+    height: 487px;
+    transform: rotate(-8deg);
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.name-iconn {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 170px;
+    top: 111px;
+    color: #9D9D9D;
+}
+
+.password-iconn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 20px;
+    top: 45px;
+    color: #9D9D9D;
+}
+
+.content {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 785px;
+    height: 700px;
+    background-color: white;
+    -webkit-border-top-left-radius: 40px;
+    -webkit-border-bottom-left-radius: 40px;
+    -moz-border-radius-topleft: 40px;
+    -moz-border-radius-bottomleft: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.inputs form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputs form label {
+    color: #383535;
+    font-family: PP Telegraf;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px;
+}
+
+.inputs input {
+    padding-left: 30px;
+    width: 427px;
+    height: 53px;
+    flex-shrink: 0;
+    border: 2px solid rgb(182, 179, 179);
+    border-radius: 10px;
+}
+
+.log-In {
+    position: relative;
+    width: 427px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #B0D8DA;
+    color: white;
+    background: rgb(82, 86, 220);
+    transition: 0.5s;
+}
+
+.log-In:hover {
+    background: #648c8f;
+}
+
+.password-input {
+    position: relative;
+    left: 17px;
+    top: -20px;
+}
+
+.toggle-password-button {
+    position: relative;
+    left: -50px;
+    top: 38px;
+    width: 35px;
+    height: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-image: url(../../utilities/svg/icon\ _Eye\ Slash_.svg);
+    background: transparent;
+    border: transparent;
+    color: gray;
+}
+
+.toggle-password-button svg {
+    position: relative;
+    top: -12px;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle-password-button:hover {
+    background: white;
+}
+
+.log-inn {
+    margin-left: 10px;
+    color: #9D9D9D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: PP Telegraf;
+    position: relative;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.btn-create {
+    left: -260px;
+    position: relative;
+    color: rgb(0, 27, 114);
+    font-family: PP Telegraf;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    list-style-type: none;
+    border-style: none;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.btn-create:hover {
+    color: #627779;
+}

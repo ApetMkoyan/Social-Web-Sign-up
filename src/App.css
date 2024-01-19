@@ -1,0 +1,19 @@
+@font-face {
+    font-family: PP Telegraf;
+    src: url(./utilities/fonts/pptelegraf-ultralight.otf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(./utilities/fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./utilities/fonts/Poppins-Regular.ttf);
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(16, 16, 215, 1) 15%, rgba(13, 110, 222, 1) 33%, rgba(13, 117, 222, 1) 52%, rgba(0, 212, 255, 1) 100%);
+}

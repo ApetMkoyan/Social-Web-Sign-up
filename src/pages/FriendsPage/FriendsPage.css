@@ -1,0 +1,163 @@
+.FriendsList {
+    width: 380px;
+    height: 600px;
+    padding: 50px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transform: translateX(-100%);
+    opacity: 0;
+    overflow: scroll;
+    animation: slideInFromBottom 1s ease-in-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: -50px;
+}
+
+.MyFriends {
+    position: absolute;
+    top: 170px;
+    left: 800px;
+    animation: slideInFromLeft 2s ease-in-out forwards;
+
+}
+
+.AddFriendTitle {
+    position: absolute;
+    top: 170px;
+    right: 350px;
+    animation: slideInFromLeft 2s ease-in-out forwards;
+
+}
+
+
+.Friends-List {
+    animation: slideInFromLeft 1s ease-in-out forwards;
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.Friends-List img {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.AddFriendsList {
+    width: 380px;
+    height: 600px;
+    padding: 30px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    transform: translateX(-100%);
+    opacity: 0;
+    overflow: scroll;
+    animation: slideInFromBottom 1s ease-in-out forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.AddetFriend {
+    border-style: none;
+    position: relative;
+    top: -40px;
+    left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.Recomendet-List {
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+}
+
+.Recomendet-List p {
+    position: relative;
+    top: 40px;
+    right: 40px;
+}
+
+.Recomendet-List img {
+    position: relative;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.AddFriendsList .AddetFriend .green {
+    color: green;
+}
+
+.AddFriendsList .AddetFriend .red {
+    color: red;
+}
+
+.AddFriendsList .AddetFriend svg {
+    width: 35px;
+    height: 35px;
+}
+
+.test {
+    position: relative;
+    top: -100px;
+    width: 100%;
+    height: 300px;
+}
+
+.test1 {
+    position: relative;
+    top: 600px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@keyframes slideInFromLeft {
+
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.SignUp {
+    width: 1152px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(163deg, rgba(0, 212, 255, 1) 0%, rgba(13, 117, 222, 1) 31%, rgba(13, 110, 222, 1) 66%, rgba(16, 16, 215, 1) 78%, rgba(2, 0, 36, 1) 100%);
+}
+
+.Logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+}
+
+.contentt {
+    position: relative;
+    top: -7px;
+    width: 735px;
+    height: 687px;
+    background-color: white;
+    -webkit-border-top-left-radius: 40px;
+    -webkit-border-bottom-left-radius: 40px;
+    -moz-border-radius-topleft: 40px;
+    -moz-border-radius-bottomleft: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.LogoBird {
+    position: relative;
+    left: -130px;
+    width: 48px;
+    height: 48px;
+    background-image: url(../../utilities/png/LogoBird.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.file {
+    background: rgb(67, 72, 217);
+    color: white;
+    border-radius: 5px;
+    padding: 1rem 7rem;
+    cursor: pointer;
+    transition: 1s;
+    border-style: none;
+    content: url(../../utilities/svg/key.svg);
+
+}
+
+.file:hover {
+    width: 350px;
+    border-radius: 50px;
+    background: #858d8d;
+}
+
+.Logos span {
+    display: flex;
+    width: 316px;
+    height: 66px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: PP Telegraf;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 1.92px;
+}
+
+.img3d {
+    position: relative;
+    left: 70px;
+    width: 429px;
+    height: 487px;
+    transform: rotate(-8deg);
+    flex-shrink: 0;
+    z-index: 2;
+}
+
+.mail-icon {
+    position: absolute;
+    left: 180px;
+    top: 184px;
+    color: #9D9D9D;
+    width: 20px;
+    height: 20px;
+}
+
+.name-icon {
+    position: absolute;
+    left: 180px;
+    top: 92px;
+    color: #9D9D9D;
+    width: 20px;
+    height: 20px;
+}
+
+.password-icon {
+    position: absolute;
+    left: 180px;
+    top: 278px;
+    color: #9D9D9D;
+    width: 20px;
+    height: 20px;
+}
+
+.inputs form {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inputs form label {
+    color: #383535;
+    font-family: PP Telegraf;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px;
+}
+
+.inputs input {
+    padding-left: 50px;
+    width: 427px;
+    height: 53px;
+    flex-shrink: 0;
+}
+
+form button {
+    width: 427px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #B0D8DA;
+    color: white;
+    background: rgb(66, 71, 220);
+    transition: 0.5s all linear;
+}
+
+form button:hover {
+    width: 350px;
+    background: #8a8e8e;
+    border-radius: 50px;
+}
+
+.log-in {
+    margin-left: 30px;
+    color: #9D9D9D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: PP Telegraf;
+    position: relative;
+    top: -150px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.btn-log {
+    position: relative;
+    left: -100px;
+    background: rgb(82, 86, 220);
+    font-family: PP Telegraf;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    list-style-type: none;
+    border-style: none;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+.btn-log:hover {
+    color: #627779;
+}
